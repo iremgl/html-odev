@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Benim Sayfam</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">İrem Gül</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#hakkımda">Hakkımda</a></li>
+          <li><a href="#hobilerim">Hobilerim</a></li>
+          <li><a href="#bağlantılar">Bağlantılar</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">İrem Gül</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#hakkımda" onclick="toggleMenu()">Hakkımda</a></li>
+          <li><a href="#hobilerim" onclick="toggleMenu()">Hobilerim</a></li>
+          <li><a href="#bağlantılar" onclick="toggleMenu()">Bağlantılar</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./İREM.jpg" />
+      </div>
+
+      <div class="section__text">
+        <p class="section__text__p1">Merhaba ben,</p>
+        <h1 class="title">İrem Gül</h1>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('CV.pdf')"
+          >
+            CV İndir
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='#bağlantılar'">
+            İletişim Bilgileri
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./icons/linkedin.png"
+            alt="Linkedin Profilim"
+            class="icon"
+            onclick="location.href='https:linkedin.com/in/irem-gül-1b2237270'"
+          />
+          <img
+            src="./icons/github.png"
+            alt="Github Profilim"
+            class="icon"
+            onclick="location.href='https://github.com/iremgl'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="hakkımda">
+      <h1 class="title">Hakkımda</h1>
+    </div>   
+    <p>
+      Ben İrem. 21 yaşındayım. Ankara Medipol Üniversitesi Yönetim Bilişim Sistemleri Bölümü 3.sınıf öğrencisiyim. Veri analistliği ve veri bilimi alanında kariyer yapmak için sağlam bir temel oluşturmaktayım. 
+      Bilgisayar bilimlerindeki temelim ve teorik bilgimle birlikte pratik becerilerimi de sürekli olarak geliştiriyorum.
+    </p>
+  </div>
+    
+ 
+    </section>
+    <section id="hobilerim">
+      <h1 class="title">Hobilerim</h1>
+    </div>   
+    <p style="text-align:left"> Hobilerim arasında yapmaktan en çok zevk aldığım aktivite sinemaya gitmek ya da film izlemek. 
+      İşte sevdiğim filmlerden üçünün posteri; Ratatouille (2007),
+      İnterstellar (2014), Pretty Women (1990).
+    </p>
+    </div>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <div class="image-container">
+            <img src="./ratatouille.png" alt="Resim 1" >
+            <img src="./interstellar.png" alt="Resim 2">
+            <img src="./prettywomen.png" alt="Resim 3" >
+          </div>
+
+
+    
+    </section>
+    <section id="bağlantılar">
+      <h1 class="title">Benimle Bağlantı Kur</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./icons/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">irem.g2804@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./icons/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https:linkedin.com/in/irem-gül-1b2237270">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#hakkımda">Hakkımda</a></li>
+            <li><a href="#hobilerim">Hobilerim</a></li>
+            <li><a href="#bağlantılar">Bağlantılar</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 İrem Gül. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
+
